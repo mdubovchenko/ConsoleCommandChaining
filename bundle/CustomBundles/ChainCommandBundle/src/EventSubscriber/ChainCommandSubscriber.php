@@ -35,14 +35,5 @@ class ChainCommandSubscriber implements EventSubscriberInterface
                 }
             }
         }
-//        array_map(function ($command) use ($event) {
-//            $command->run($event->getInput(), $event->getOutput());
-//        }, array_filter($command->getApplication()->all(), function ($child) use ($command) {
-//            if ($child instanceof ChainCommandInterface) {
-//                if (get_class($command) === $child->getMaster()) {
-//                    return $command;
-//                }
-//            }
-//        }));
     }
 }
