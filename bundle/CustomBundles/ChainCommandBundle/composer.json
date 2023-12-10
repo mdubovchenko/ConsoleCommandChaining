@@ -1,0 +1,23 @@
+{
+  "name": "custombundles/chain-command-bundle",
+  "version": "0.0.1",
+  "type": "symfony-bundle",
+  "description": "Main bundle",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.2.5"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "CustomBundles\\ChainCommandBundle\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "CustomBundles\\ChainCommandBundle\\": "tests/"
+    }
+  }
+}
